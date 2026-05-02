@@ -13,6 +13,10 @@ public class Main {
         strings.add("Unclear. Try again later.");
         strings.add("Quite certainly.");
         strings.add("Never.");
+        strings.add("Never in a million years.");
+        strings.add("Absolutely not.");
+        strings.add("Unquestionably not.");
+        strings.add("Unlikely.");
 
         Random random = new Random();
         String randomString = strings.get(random.nextInt(strings.size()));
